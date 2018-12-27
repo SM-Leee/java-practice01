@@ -12,6 +12,7 @@ public class Prob4 {
 		for(int i=0;i<a.length();i++) {
 			b+=a.charAt(i);
 			System.out.println(b);
+			
 		}
 	}
 
