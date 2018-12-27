@@ -8,12 +8,14 @@ public class Prob4 {
 		System.out.print("문자열을 입력하세요. : ");
 		Scanner sc = new Scanner(System.in);
 		String a = sc.nextLine();
+
 		String b = new String();
 		for(int i=0;i<a.length();i++) {
 			b+=a.charAt(i);
 			System.out.println(b);
 			
 		}
+
 	}
 
 }
